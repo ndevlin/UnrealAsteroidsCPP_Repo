@@ -2,11 +2,11 @@
   Building UnrealAsteroids_CPPEditor...
   Using Visual Studio 2017 14.16.27045 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 12 processes...
-    [1/4] Asteroid.cpp
-    [2/4] UE4Editor-UnrealAsteroids_CPP-0036.lib
-       Creating library C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-0036.lib and object C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-0036.exp
-    [3/4] UE4Editor-UnrealAsteroids_CPP-0036.dll
-       Creating library C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-0036.suppressed.lib and object C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-0036.suppressed.exp
+    [1/4] Global.cpp
+    [2/4] UE4Editor-UnrealAsteroids_CPP-0045.lib
+       Creating library C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-0045.lib and object C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-0045.exp
+    [3/4] UE4Editor-UnrealAsteroids_CPP-0045.dll
+       Creating library C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-0045.suppressed.lib and object C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-0045.suppressed.exp
     [4/4] UnrealAsteroids_CPPEditor.target
-  Total time in Parallel executor: 9.49 seconds
-  Total execution time: 11.81 seconds
+  Total time in Parallel executor: 10.44 seconds
+  Total execution time: 13.31 seconds

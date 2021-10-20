@@ -3,6 +3,8 @@
 
 #include "Asteroid.h"
 #include "UObject/ConstructorHelpers.h"
+#include "Kismet/GameplayStatics.h"
+
 
 // Sets default values
 AAsteroid::AAsteroid()
@@ -30,7 +32,8 @@ AAsteroid::AAsteroid()
 	if (explosionSound.Object != NULL)
 	{
 		explosionSoundCue = (USoundCue*)explosionSound.Object;
-	}
+	}
+
 }
 
 // Called when the game starts or when spawned
@@ -49,7 +52,9 @@ void AAsteroid::Tick(float DeltaTime)
 
 }
 
-void AAsteroid::onHit(AActor* SelfActor, class AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit){	if (OtherActor && (OtherActor != this) && OtherActor->IsA(ABullet::StaticClass()))
+void AAsteroid::onHit(AActor* SelfActor, class AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit)
+{
+	if (OtherActor && (OtherActor != this) && OtherActor->IsA(ABullet::StaticClass()))
 	{
 		Destroy();
 		OtherActor->Destroy();
@@ -61,7 +66,10 @@ void AAsteroid::onHit(AActor* SelfActor, class AActor* OtherActor, FVector Norma
 			SpawnParams.Instigator = GetInstigator();
 			World->SpawnActor<AActor>(Explosion, GetActorLocation(),
 				GetActorRotation(), SpawnParams);
-			//UGameplayStatics::PlaySoundAtLocation(World, explosionSoundCue, GetActorLocation());
-		}
-	}}
+			UGameplayStatics::PlaySoundAtLocation(World, explosionSoundCue, GetActorLocation());
+		}
+
+	}
+}
+
 
