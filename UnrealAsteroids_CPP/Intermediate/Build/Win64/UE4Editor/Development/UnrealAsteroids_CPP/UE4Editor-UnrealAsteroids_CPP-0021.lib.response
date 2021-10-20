@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UnrealAsteroids_CPP-0021.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UnrealAsteroids_CPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\Asteroid.cpp.obj"
+"C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\Bullet.cpp.obj"
+"C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\Ship.cpp.obj"
+"C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UnrealAsteroids_CPP.cpp.obj"
+"C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UnrealAsteroids_CPPGameModeBase.cpp.obj"
+"C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\Asteroid.gen.cpp.obj"
+"C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\Bullet.gen.cpp.obj"
+"C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\Ship.gen.cpp.obj"
+"C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UnrealAsteroids_CPP.init.gen.cpp.obj"
+"C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UnrealAsteroids_CPPGameModeBase.gen.cpp.obj"
+"C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\Default.rc2.res"
+/OUT:"C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-0021.lib"

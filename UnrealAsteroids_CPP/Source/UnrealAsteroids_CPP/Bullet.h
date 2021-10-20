@@ -19,7 +19,8 @@ public:
 	// Sphere collision component
 	USphereComponent* CollisionComp;
 	// Projectile movement component
-	UProjectileMovementComponent* ProjectileMovement;
+	UProjectileMovementComponent* ProjectileMovement;
+
 
 protected:
 	// Called when the game starts or when spawned

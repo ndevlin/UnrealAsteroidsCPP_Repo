@@ -27,7 +27,8 @@ ABullet::ABullet(const FObjectInitializer& ObjectInitializer) : Super(ObjectInit
 	ProjectileMovement->bRotationFollowsVelocity = true;
 	ProjectileMovement->bShouldBounce = true;
 	ProjectileMovement->ProjectileGravityScale = 0.0f;
-}
+}
+
 
 // Called when the game starts or when spawned
 void ABullet::BeginPlay()

@@ -1359,3 +1359,600 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.20-04.58.08:918][ 54]AssetCheck: New page: Asset Save: multiple assets
 [2021.10.20-04.58.08:918][ 54]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
 [2021.10.20-04.58.08:918][ 54]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.10.20-04.59.18:463][339]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.10.20-04.59.18:473][339]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel9DA555DC41B63EA5FB25A4B2BC30851C.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel.umap'
+[2021.10.20-04.59.18:508][339]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel_BuiltDataC73049D24DC54EB7E446E782AA448E2C.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel_BuiltData.uasset'
+[2021.10.20-04.59.18:566][339]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.20-04.59.18:566][339]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2021.10.20-04.59.18:566][339]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.10.20-04.59.49:399][104]Running C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/UnrealAsteroids_CPP.uproject" -game -rocket -progress
+[2021.10.20-04.59.49:917][104]Discovering modules, targets and source code for project...
+[2021.10.20-04.59.52:634][104]Binding IntelliSense data...
+[2021.10.20-04.59.56:073][104]Binding IntelliSense data... 100%
+[2021.10.20-04.59.56:073][104]Writing project files...
+[2021.10.20-05.00.01:509][104]Writing project files... 100%
+[2021.10.20-05.00.01:738][104]Candidate modules for hot reload:
+[2021.10.20-05.00.01:738][104]  UnrealAsteroids_CPP
+[2021.10.20-05.00.01:738][104]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnrealAsteroids_CPP,0662 UnrealAsteroids_CPPEditor Win64 Development -Project="C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/UnrealAsteroids_CPP.uproject" "C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/UnrealAsteroids_CPP.uproject"  -IgnoreJunk]
+[2021.10.20-05.00.16:969][104]CompilerResultsLog: New page: Compilation - Oct 19, 2021, 9:00:16 PM
+[2021.10.20-05.00.16:969][104]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo).
+[2021.10.20-05.00.16:969][104]CompilerResultsLog: Creating makefile for UnrealAsteroids_CPPEditor (no existing makefile)
+[2021.10.20-05.00.16:970][104]CompilerResultsLog: Parsing headers for UnrealAsteroids_CPPEditor
+[2021.10.20-05.00.16:970][104]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\UnrealAsteroids_CPP.uproject" "C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UnrealAsteroids_CPPEditor\Development\UnrealAsteroids_CPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\nd_mo\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.10.20-05.00.16:970][104]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2021.10.20-05.00.16:970][104]CompilerResultsLog: Reflection code generated for UnrealAsteroids_CPPEditor in 6.6421235 seconds
+[2021.10.20-05.00.16:970][104]CompilerResultsLog: Error: C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Source\UnrealAsteroids_CPP\Ship.cpp(1) : error: Expected Ship.h to be first header included.
+[2021.10.20-05.00.16:970][104]CompilerResultsLog: Building UnrealAsteroids_CPPEditor...
+[2021.10.20-05.00.16:970][104]CompilerResultsLog: Using Visual Studio 2017 14.16.27045 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.10.20-05.00.16:970][104]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.10.20-05.00.16:970][104]CompilerResultsLog:   [1/6] UnrealAsteroids_CPP.init.gen.cpp
+[2021.10.20-05.00.16:970][104]CompilerResultsLog:   [2/6] Asteroid.cpp
+[2021.10.20-05.00.16:970][104]CompilerResultsLog:   [3/6] Asteroid.gen.cpp
+[2021.10.20-05.00.16:970][104]CompilerResultsLog:   [4/6] UE4Editor-UnrealAsteroids_CPP-0662.lib
+[2021.10.20-05.00.16:970][104]CompilerResultsLog:      Creating library C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-0662.lib and object C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-0662.exp
+[2021.10.20-05.00.16:970][104]CompilerResultsLog:   [5/6] UE4Editor-UnrealAsteroids_CPP-0662.dll
+[2021.10.20-05.00.16:970][104]CompilerResultsLog:      Creating library C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-0662.suppressed.lib and object C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-0662.suppressed.exp
+[2021.10.20-05.00.16:970][104]CompilerResultsLog:   [6/6] UnrealAsteroids_CPPEditor.target
+[2021.10.20-05.00.16:970][104]CompilerResultsLog: Total time in Parallel executor: 4.34 seconds
+[2021.10.20-05.00.16:970][104]CompilerResultsLog: Total execution time: 15.11 seconds
+[2021.10.20-05.00.16:970][104]LogMainFrame: MainFrame: Module compiling took 15.251 seconds
+[2021.10.20-05.00.17:234][104]LogClass: Could not find existing class Asteroid in package /Script/UnrealAsteroids_CPP for HotReload, assuming new class
+[2021.10.20-05.00.17:246][104]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UnrealAsteroids_CPP' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2021.10.20-05.00.17:252][104]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.10.20-05.00.17:499][104]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0199 seconds. Added 3826 classes and 930 folders.
+[2021.10.20-05.00.17:499][104]Display: HotReload took 15.8s.
+[2021.10.20-05.00.17:505][104]Warning: HotReload operation took 15.8s.
+[2021.10.20-05.00.18:368][104]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Source/UnrealAsteroids_CPP/Asteroid.cpp'
+[2021.10.20-05.00.18:398][104]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.10.20-05.00.19:284][104]LogHotReload: New module detected: UE4Editor-UnrealAsteroids_CPP-0662.dll
+[2021.10.20-05.00.19:373][105]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.20-05.00.19:616][105]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UnrealAsteroids_CPP' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2021.10.20-05.00.19:634][105]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.10.20-05.00.19:667][105]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0216 seconds. Added 3826 classes and 930 folders.
+[2021.10.20-05.00.19:703][105]Display: HotReload took  0.3s.
+[2021.10.20-05.04.34:808][193]LogHotReload: New module detected: UE4Editor-UnrealAsteroids_CPP-0020.dll
+[2021.10.20-05.06.12:260][484]LogHotReload: New module detected: UE4Editor-UnrealAsteroids_CPP-0021.dll
+[2021.10.20-05.19.09:954][ 10]Candidate modules for hot reload:
+[2021.10.20-05.19.09:954][ 10]  UnrealAsteroids_CPP
+[2021.10.20-05.19.09:954][ 10]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnrealAsteroids_CPP,0116 UnrealAsteroids_CPPEditor Win64 Development -Project="C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/UnrealAsteroids_CPP.uproject" "C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/UnrealAsteroids_CPP.uproject"  -IgnoreJunk]
+[2021.10.20-05.19.09:968][ 10]Warning: Starting HotReload took  0.1s.
+[2021.10.20-05.19.15:190][ 77]CompilerResultsLog: New page: Compilation - Oct 19, 2021, 9:19:15 PM
+[2021.10.20-05.19.15:190][ 77]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo).
+[2021.10.20-05.19.15:190][ 77]CompilerResultsLog: Building UnrealAsteroids_CPPEditor...
+[2021.10.20-05.19.15:190][ 77]CompilerResultsLog: Using Visual Studio 2017 14.16.27045 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.10.20-05.19.15:190][ 77]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.10.20-05.19.15:190][ 77]CompilerResultsLog:   [1/4] Asteroid.cpp
+[2021.10.20-05.19.15:190][ 77]CompilerResultsLog:    C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Source\UnrealAsteroids_CPP\Asteroid.cpp(39) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2021.10.20-05.19.15:190][ 77]CompilerResultsLog:    C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Source\UnrealAsteroids_CPP\Asteroid.cpp(41) : error C3861: 'Destroy': identifier not found
+[2021.10.20-05.19.15:190][ 77]LogMainFrame: MainFrame: Module compiling took 5.261 seconds
+[2021.10.20-05.19.15:190][ 77]Warning: HotReload failed, recompile failed
+[2021.10.20-05.20.32:332][495]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2021.10.20-05.20.32:380][495]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2021.10.20-05.20.32:380][495]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2021.10.20-05.20.32:417][495]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2021.10.20-05.20.32:418][495]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2021.10.20-05.20.32:448][495]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2021.10.20-05.21.15:237][715]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2021.10.20-05.21.15:289][715]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2021.10.20-05.21.15:291][715]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2021.10.20-05.21.15:338][715]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2021.10.20-05.21.15:342][715]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2021.10.20-05.21.15:381][715]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2021.10.20-05.21.40:230][942]LogUObjectHash: Compacting FUObjectHashTables data took   6.17ms
+[2021.10.20-05.21.40:240][942]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevelAD01DBAD46CCBAD95AC6A6B8F6C7A380.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel.umap'
+[2021.10.20-05.21.40:269][942]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel_BuiltDataAB5DEFBB4B18BD35766549984CB47131.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel_BuiltData.uasset'
+[2021.10.20-05.21.40:309][942]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.20-05.21.40:309][942]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2021.10.20-05.21.40:310][942]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.10.20-05.21.41:652][ 12]LogSlate: Window 'Message Log' being destroyed
+[2021.10.20-05.21.41:691][ 12]LogSlate: Window 'Message Log' being destroyed
+[2021.10.20-05.21.42:685][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.10.20-05.21.42:693][ 51]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevelAB3FAB3145FF4BA5B6CEC88FB6D346F7.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel.umap'
+[2021.10.20-05.21.42:716][ 51]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel_BuiltData2008D1D94F28567C23E37CA941B0D4F1.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel_BuiltData.uasset'
+[2021.10.20-05.21.42:754][ 51]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.20-05.21.42:754][ 51]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2021.10.20-05.21.42:754][ 51]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.10.20-05.21.45:005][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.10.20-05.21.50:015][345]LogAudioMixer: Resetting audio stream to device id 
+[2021.10.20-05.21.50:112][345]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.20-05.21.50:112][345]LogAudioMixer: Display: 1: FrontRight
+[2021.10.20-05.21.50:985][346]LogAudioMixer: Resetting audio stream to device id 
+[2021.10.20-05.21.51:083][346]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.20-05.21.51:084][346]LogAudioMixer: Display: 1: FrontRight
+[2021.10.20-08.22.02:147][353]LogAudioMixer: Resetting audio stream to device id 
+[2021.10.20-08.22.02:503][353]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.20-08.22.02:503][353]LogAudioMixer: Display: 1: FrontRight
+[2021.10.20-08.22.02:575][354]LogHttp: Warning: 00000117ECA91D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B38DCAE6F-45DE-8AE0-2948-E9A5AEB3D443%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.1-17735300%2B%2B%2BUE4%2BRelease-4.27&UserID=06bbcf22411b2809a69cad8c3859aa06%7C9fed6cd955494a65b101f74fc5fbf5bb%7C75cda716-862e-4423-8415-1fefc51c8716&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.10.20-08.22.02:575][354]LogHttp: Warning: 00000117ECA91D00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.10.20-08.22.02:575][354]LogHttp: Warning: 00000117ECA91D00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x117f4777eb0 [can pipeline])
+[2021.10.20-08.22.02:575][354]LogHttp: Warning: 00000117ECA91D00: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2021.10.20-08.22.02:575][354]LogHttp: Warning: 00000117ECA91D00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.207.134.143) port 443 (#1))
+[2021.10.20-08.22.02:575][354]LogHttp: Warning: 00000117ECA91D00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.10.20-08.22.02:575][354]LogHttp: Warning: 00000117ECA91D00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.10.20-08.22.02:575][354]LogHttp: Warning: 00000117ECA91D00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.10.20-08.22.02:575][354]LogHttp: Warning: 00000117ECA91D00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.10.20-08.22.02:575][354]LogHttp: Warning: 00000117ECA91D00: libcurl info message cache 7 (Closing connection 1)
+[2021.10.20-08.22.02:575][354]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B38DCAE6F-45DE-8AE0-2948-E9A5AEB3D443%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.1-17735300%2B%2B%2BUE4%2BRelease-4.27&UserID=06bbcf22411b2809a69cad8c3859aa06%7C9fed6cd955494a65b101f74fc5fbf5bb%7C75cda716-862e-4423-8415-1fefc51c8716&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.10.20-15.30.19:656][361]LogAudioMixer: Resetting audio stream to device id 
+[2021.10.20-15.30.19:782][361]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.20-15.30.19:782][361]LogAudioMixer: Display: 1: FrontRight
+[2021.10.20-15.38.58:167][603]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.20-15.38.58:193][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.20-15.38.58:194][603]PIE: New page: PIE session: MainLevel (Oct 20, 2021, 7:38:58 AM)
+[2021.10.20-15.38.58:224][603]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.10.20-15.38.58:226][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001843s)
+[2021.10.20-15.38.58:228][603]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.20-15.38.58:228][603]LogPlayLevel: PIE: World Init took: (0.001827s)
+[2021.10.20-15.38.58:228][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.003921s)
+[2021.10.20-15.38.58:270][603]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2021.10.20-15.38.58:277][603]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.10.20-15.38.58:277][603]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.20-15.38.58:277][603]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.20-15.38.58:277][603]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.20-15.38.58:277][603]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.20-15.38.58:277][603]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.20-15.38.58:277][603]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.20-15.38.58:277][603]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.20-15.38.58:277][603]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.20-15.38.58:278][603]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.20-15.38.58:278][603]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.20-15.38.58:278][603]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.20-15.38.58:278][603]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.20-15.38.58:286][603]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.20-15.38.58:287][603]LogAudioMixer: Display: 1: FrontRight
+[2021.10.20-15.38.58:347][603]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.10.20-15.38.58:347][603]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.20-15.38.58:347][603]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.20-15.38.58:347][603]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.20-15.38.58:348][603]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.20-15.38.58:348][603]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.20-15.38.58:349][603]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.20-15.38.58:351][603]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.20-15.38.58:351][603]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.20-15.38.58:351][603]LogInit: FAudioDevice initialized.
+[2021.10.20-15.38.58:351][603]LogAudio: Display: Audio Device (ID: 6) registered with world 'MainLevel'.
+[2021.10.20-15.38.58:365][603]LogLoad: Game class is 'GameModeBase'
+[2021.10.20-15.38.58:366][603]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.10.20-11.38.58
+[2021.10.20-15.38.58:367][603]LogWorld: Bringing up level for play took: 0.000955
+[2021.10.20-15.38.58:367][603]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.10.20-15.38.58:371][603]PIE: Server logged in
+[2021.10.20-15.38.58:372][603]PIE: Play in editor total start time 0.189 seconds.
+[2021.10.20-15.39.05:819][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.39.05:819][ 46]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.10.20-15.39.05:819][ 46]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.39.05:819][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.39.05:831][ 46]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.20-15.39.05:835][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.39.05:861][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.39.05:861][ 46]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-15.39.05:863][ 46]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-15.39.05:888][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.10.20-15.39.05:915][ 47]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.10.20-15.39.32:563][672]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2021.10.20-15.39.32:579][672]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.10.20-15.39.49:326][672]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.10.20-15.39.49:338][672]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.10.20-15.39.49:384][672]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.10.20-15.39.55:013][996]LogContentBrowser: Attempting asset rename: NewBlueprint -> AsteroidBP
+[2021.10.20-15.39.55:020][996]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.10.20-15.40.05:229][411]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.41.02:103][870]BlueprintLog: New page: Compile AsteroidBP
+[2021.10.20-15.41.02:234][870]LogUObjectHash: Compacting FUObjectHashTables data took  14.27ms
+[2021.10.20-15.41.03:416][890]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/AsteroidBP380AC6BC4900C92689C24AA4BAC43934.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/AsteroidBP.uasset'
+[2021.10.20-15.41.03:477][890]AssetCheck: New page: Asset Save: AsteroidBP
+[2021.10.20-15.41.03:477][890]LogContentValidation: Display: Validating Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.41.13:849][212]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.41.13:894][212]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.41.13:925][212]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.41.13:925][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.41.27:767][915]Cmd: TRANSACTION UNDO
+[2021.10.20-15.41.27:767][915]LogEditorTransaction: Undo Create Actors
+[2021.10.20-15.41.29:614][966]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.41.57:647][ 51]BlueprintLog: New page: Compile AsteroidBP
+[2021.10.20-15.41.57:754][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   9.00ms
+[2021.10.20-15.41.58:499][ 66]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/AsteroidBPA6FFC4A14D16EA99259B068DA7EFEC60.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/AsteroidBP.uasset'
+[2021.10.20-15.41.58:567][ 66]AssetCheck: New page: Asset Save: AsteroidBP
+[2021.10.20-15.41.58:567][ 66]LogContentValidation: Display: Validating Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.41.59:502][103]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.41.59:524][103]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.41.59:550][103]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.41.59:550][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.42.05:241][337]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.20-15.42.05:272][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.20-15.42.05:272][337]PIE: New page: PIE session: MainLevel (Oct 20, 2021, 7:42:05 AM)
+[2021.10.20-15.42.05:272][337]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.10.20-15.42.05:275][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002703s)
+[2021.10.20-15.42.05:277][337]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.20-15.42.05:277][337]LogPlayLevel: PIE: World Init took: (0.002367s)
+[2021.10.20-15.42.05:278][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.005360s)
+[2021.10.20-15.42.05:333][337]LogUObjectHash: Compacting FUObjectHashTables data took   6.35ms
+[2021.10.20-15.42.05:335][337]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.10.20-15.42.05:335][337]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.20-15.42.05:335][337]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.20-15.42.05:335][337]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.20-15.42.05:335][337]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.20-15.42.05:335][337]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.20-15.42.05:335][337]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.20-15.42.05:335][337]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.20-15.42.05:335][337]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.20-15.42.05:336][337]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.20-15.42.05:336][337]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.20-15.42.05:336][337]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.20-15.42.05:336][337]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.20-15.42.05:352][337]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.20-15.42.05:352][337]LogAudioMixer: Display: 1: FrontRight
+[2021.10.20-15.42.05:428][337]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.10.20-15.42.05:429][337]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.20-15.42.05:429][337]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.20-15.42.05:429][337]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.20-15.42.05:430][337]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.20-15.42.05:430][337]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.20-15.42.05:430][337]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.20-15.42.05:433][337]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.20-15.42.05:433][337]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.20-15.42.05:433][337]LogInit: FAudioDevice initialized.
+[2021.10.20-15.42.05:433][337]LogAudio: Display: Audio Device (ID: 7) registered with world 'MainLevel'.
+[2021.10.20-15.42.05:453][337]LogLoad: Game class is 'GameModeBase'
+[2021.10.20-15.42.05:455][337]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.10.20-11.42.05
+[2021.10.20-15.42.05:456][337]LogWorld: Bringing up level for play took: 0.001296
+[2021.10.20-15.42.05:456][337]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.10.20-15.42.05:461][337]PIE: Server logged in
+[2021.10.20-15.42.05:463][337]PIE: Play in editor total start time 0.204 seconds.
+[2021.10.20-15.42.08:787][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.42.08:787][530]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.10.20-15.42.08:789][530]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.42.08:789][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.42.08:807][530]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.20-15.42.08:826][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.42.08:859][530]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.20-15.42.08:859][530]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-15.42.08:861][530]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-15.42.08:878][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.42.08:883][530]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2021.10.20-15.42.08:939][531]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.10.20-15.42.11:812][686]Cmd: TRANSACTION UNDO
+[2021.10.20-15.42.11:812][686]LogEditorTransaction: Undo Create Actors
+[2021.10.20-15.42.40:952][143]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2021.10.20-15.42.40:972][143]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevelBC2F828640E079E93898CB86DEFAB6F2.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel.umap'
+[2021.10.20-15.42.41:008][143]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel_BuiltData37DC6FE44ACF1A9995D88E9FE5CE4B00.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel_BuiltData.uasset'
+[2021.10.20-15.42.41:053][143]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.20-15.42.41:053][143]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2021.10.20-15.42.41:053][143]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.10.20-15.42.41:738][173]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.20-15.42.41:769][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.20-15.42.41:769][173]PIE: New page: PIE session: MainLevel (Oct 20, 2021, 7:42:41 AM)
+[2021.10.20-15.42.41:769][173]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.10.20-15.42.41:772][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003101s)
+[2021.10.20-15.42.41:774][173]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.20-15.42.41:775][173]LogPlayLevel: PIE: World Init took: (0.002527s)
+[2021.10.20-15.42.41:775][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.005945s)
+[2021.10.20-15.42.41:821][173]LogUObjectHash: Compacting FUObjectHashTables data took   6.26ms
+[2021.10.20-15.42.41:822][173]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.10.20-15.42.41:823][173]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.20-15.42.41:823][173]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.20-15.42.41:823][173]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.20-15.42.41:823][173]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.20-15.42.41:823][173]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.20-15.42.41:823][173]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.20-15.42.41:823][173]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.20-15.42.41:823][173]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.20-15.42.41:824][173]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.20-15.42.41:824][173]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.20-15.42.41:824][173]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.20-15.42.41:824][173]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.20-15.42.41:835][173]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.20-15.42.41:835][173]LogAudioMixer: Display: 1: FrontRight
+[2021.10.20-15.42.41:906][173]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.10.20-15.42.41:907][173]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.20-15.42.41:907][173]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.20-15.42.41:907][173]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.20-15.42.41:908][173]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.20-15.42.41:908][173]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.20-15.42.41:908][173]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.20-15.42.41:911][173]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.20-15.42.41:911][173]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.20-15.42.41:911][173]LogInit: FAudioDevice initialized.
+[2021.10.20-15.42.41:911][173]LogAudio: Display: Audio Device (ID: 8) registered with world 'MainLevel'.
+[2021.10.20-15.42.41:929][173]LogLoad: Game class is 'GameModeBase'
+[2021.10.20-15.42.41:932][173]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.10.20-11.42.41
+[2021.10.20-15.42.41:932][173]LogWorld: Bringing up level for play took: 0.001381
+[2021.10.20-15.42.41:932][173]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.10.20-15.42.41:937][173]PIE: Server logged in
+[2021.10.20-15.42.41:938][173]PIE: Play in editor total start time 0.183 seconds.
+[2021.10.20-15.43.02:209][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.43.02:209][370]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.10.20-15.43.02:209][370]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.43.02:210][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.43.02:231][370]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.20-15.43.02:254][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.43.02:293][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.43.02:293][370]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-15.43.02:296][370]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-15.43.02:322][370]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2021.10.20-15.43.02:391][371]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.10.20-15.43.36:797][416]LogEditorViewport: Clicking on Actor (LMB): ShipBP_C (ShipBP)
+[2021.10.20-15.43.39:797][585]LogEditorViewport: Clicking on Actor (LMB): AsteroidBP_C (AsteroidBP3)
+[2021.10.20-15.43.42:044][711]LogEditorViewport: Clicking on Actor (LMB): AsteroidBP_C (AsteroidBP2)
+[2021.10.20-15.43.43:120][767]LogEditorViewport: Clicking on Actor (LMB): AsteroidBP_C (AsteroidBP)
+[2021.10.20-15.43.46:932][914]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.44.46:916][187]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.44.46:949][187]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.44.46:981][187]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.44.46:981][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.44.49:479][268]Cmd: TRANSACTION UNDO
+[2021.10.20-15.44.49:479][268]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.20-15.44.49:805][275]Cmd: TRANSACTION UNDO
+[2021.10.20-15.44.49:805][275]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.20-15.44.50:089][282]Cmd: TRANSACTION UNDO
+[2021.10.20-15.44.50:089][282]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.20-15.44.50:376][290]Cmd: TRANSACTION UNDO
+[2021.10.20-15.44.50:376][290]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.20-15.50.16:353][570]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.53.18:024][474]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.53.18:075][474]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.53.18:113][474]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.53.18:113][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.53.21:802][607]Candidate modules for hot reload:
+[2021.10.20-15.53.21:802][607]  UnrealAsteroids_CPP
+[2021.10.20-15.53.21:803][607]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnrealAsteroids_CPP,9716 UnrealAsteroids_CPPEditor Win64 Development -Project="C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/UnrealAsteroids_CPP.uproject" "C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/UnrealAsteroids_CPP.uproject"  -IgnoreJunk]
+[2021.10.20-15.53.21:821][607]Warning: Starting HotReload took  0.1s.
+[2021.10.20-15.53.34:021][ 64]CompilerResultsLog: New page: Compilation - Oct 20, 2021, 7:53:34 AM
+[2021.10.20-15.53.34:021][ 64]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo).
+[2021.10.20-15.53.34:021][ 64]CompilerResultsLog: Building UnrealAsteroids_CPPEditor...
+[2021.10.20-15.53.34:022][ 64]CompilerResultsLog: Using Visual Studio 2017 14.16.27045 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.10.20-15.53.34:022][ 64]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.10.20-15.53.34:022][ 64]CompilerResultsLog:   [1/3] UE4Editor-UnrealAsteroids_CPP-9716.lib
+[2021.10.20-15.53.34:022][ 64]CompilerResultsLog:      Creating library C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-9716.lib and object C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-9716.exp
+[2021.10.20-15.53.34:022][ 64]CompilerResultsLog:   [2/3] UE4Editor-UnrealAsteroids_CPP-9716.dll
+[2021.10.20-15.53.34:022][ 64]CompilerResultsLog:      Creating library C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-9716.suppressed.lib and object C:\Users\nd_mo\Desktop\PennHwork\568 Game Design\UnrealAsteroids\UnrealAsteroidsProject\UnrealAsteroidsCPP_Repo\UnrealAsteroids_CPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealAsteroids_CPP\UE4Editor-UnrealAsteroids_CPP-9716.suppressed.exp
+[2021.10.20-15.53.34:022][ 64]CompilerResultsLog:   [3/3] UnrealAsteroids_CPPEditor.target
+[2021.10.20-15.53.34:022][ 64]CompilerResultsLog: Total time in Parallel executor: 6.92 seconds
+[2021.10.20-15.53.34:022][ 64]CompilerResultsLog: Total execution time: 11.79 seconds
+[2021.10.20-15.53.34:022][ 64]LogMainFrame: MainFrame: Module compiling took 12.258 seconds
+[2021.10.20-15.53.34:309][ 64]LogClass: Could not find existing class Asteroid in package /Script/UnrealAsteroids_CPP for HotReload, assuming new class
+[2021.10.20-15.53.34:309][ 64]LogClass: Function onHit is new.
+[2021.10.20-15.53.34:349][ 64]LogHotReload: Re-instancing Asteroid after hot-reload.
+[2021.10.20-15.53.34:529][ 64]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UnrealAsteroids_CPP' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2021.10.20-15.53.34:544][ 64]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.10.20-15.53.34:837][ 64]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0318 seconds. Added 3826 classes and 930 folders.
+[2021.10.20-15.53.34:837][ 64]Display: HotReload took 13.1s.
+[2021.10.20-15.53.42:159][316]MapCheck: New page: Map Check
+[2021.10.20-15.53.42:308][316]Cmd: MAP REBUILD ALLVISIBLE
+[2021.10.20-15.53.42:309][316]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.10.20-15.53.42:310][316]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=false
+[2021.10.20-15.53.42:342][316]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.10.20-15.53.42:343][316]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.10.20-15.53.42:343][316]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.10.20-15.53.42:573][316]LogUObjectHash: Compacting FUObjectHashTables data took  12.81ms
+[2021.10.20-15.53.42:589][316]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
+[2021.10.20-15.53.42:595][316]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2021.10.20-15.53.42:710][316]LogUObjectHash: Compacting FUObjectHashTables data took   6.92ms
+[2021.10.20-15.53.42:717][316]LightingResults: New page: Lighting Build - Oct 20, 2021, 7:53:42 AM
+[2021.10.20-15.53.42:748][316]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.10.20-15.53.42:757][316]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.10.20-15.53.42:757][316]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.10.20-15.53.42:761][316]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.10.20-15.53.42:761][316]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2568
+[2021.10.20-15.53.47:425][316]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.10.20-15.53.47:425][316]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.10.20-15.53.47:425][316]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.10.20-15.53.47:425][316]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.10.20-15.53.47:425][316]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.10.20-15.53.47:425][316]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.10.20-15.53.47:622][316]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.10.20-15.53.47:623][316]MapCheck: New page: MainLevel - Oct 20, 2021, 7:53:47 AM
+[2021.10.20-15.53.47:713][316]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.23ms to complete.
+[2021.10.20-15.53.47:721][316]LogEditorBuildUtils: Build time 0:05
+[2021.10.20-15.53.47:807][316]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.10.20-15.53.47:807][316]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2021.10.20-15.53.47:807][316]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2021.10.20-15.53.47:807][316]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2021.10.20-15.53.47:807][316]LogShaderCompilers: Display: ================================================
+[2021.10.20-15.53.47:911][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.10.20-15.53.52:058][388]Job is a success!
+[2021.10.20-15.53.52:359][388]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.037s
+[2021.10.20-15.53.52:359][388]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.10.20-15.53.52:359][388]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2021.10.20-15.53.52:359][388]LogVolumetricLightmapImport:      Bricks at depth
+[2021.10.20-15.53.52:359][388]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2021.10.20-15.53.52:359][388]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2021.10.20-15.53.52:359][388]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2021.10.20-15.53.52:359][388]LogVolumetricLightmapImport:      Bricks in each level
+[2021.10.20-15.53.52:359][388]LogVolumetricLightmapImport:          MainLevel 			 1 bricks 	 100.0% (Persistent Level)
+[2021.10.20-15.53.52:395][388]Lightmass on MSI: 1.93 sec total, 392 ms importing, 57 ms setup, 175 ms photons, 958 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 10.4 sec total, 0 ms processing.
+[2021.10.20-15.53.52:434][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.10.20-15.53.52:580][388]LogStaticLightingSystem: Illumination: 9.67 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2021.10.20-15.53.52:580][388]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2021.10.20-15.53.52:580][388]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2021.10.20-15.53.53:463][388]DumpUnbuiltLightIteractions
+[2021.10.20-15.53.53:463][388]Lights with unbuilt interactions: 0
+[2021.10.20-15.53.53:463][388]
+[2021.10.20-15.53.53:463][388]Primitives with unbuilt interactions: 0
+[2021.10.20-15.53.53:673][389]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.10.20-15.53.53:674][389]MapCheck: New page: MainLevel - Oct 20, 2021, 7:53:53 AM
+[2021.10.20-15.53.53:675][389]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.037ms to complete.
+[2021.10.20-15.53.55:934][476]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.20-15.53.55:972][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.20-15.53.55:972][476]PIE: New page: PIE session: MainLevel (Oct 20, 2021, 7:53:55 AM)
+[2021.10.20-15.53.55:972][476]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.10.20-15.53.55:975][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002437s)
+[2021.10.20-15.53.55:984][476]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.20-15.53.55:984][476]LogPlayLevel: PIE: World Init took: (0.009702s)
+[2021.10.20-15.53.55:985][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.012497s)
+[2021.10.20-15.53.56:026][476]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2021.10.20-15.53.56:028][476]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.10.20-15.53.56:028][476]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.20-15.53.56:028][476]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.20-15.53.56:028][476]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.20-15.53.56:028][476]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.20-15.53.56:028][476]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.20-15.53.56:028][476]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.20-15.53.56:029][476]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.20-15.53.56:029][476]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.20-15.53.56:029][476]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.20-15.53.56:029][476]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.20-15.53.56:029][476]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.20-15.53.56:029][476]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.20-15.53.56:040][476]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.20-15.53.56:040][476]LogAudioMixer: Display: 1: FrontRight
+[2021.10.20-15.53.56:112][476]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.10.20-15.53.56:113][476]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.20-15.53.56:113][476]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.20-15.53.56:113][476]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.20-15.53.56:114][476]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.20-15.53.56:114][476]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.20-15.53.56:114][476]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.20-15.53.56:117][476]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.20-15.53.56:118][476]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.20-15.53.56:118][476]LogInit: FAudioDevice initialized.
+[2021.10.20-15.53.56:118][476]LogAudio: Display: Audio Device (ID: 9) registered with world 'MainLevel'.
+[2021.10.20-15.53.56:139][476]LogLoad: Game class is 'GameModeBase'
+[2021.10.20-15.53.56:140][476]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.10.20-11.53.56
+[2021.10.20-15.53.56:141][476]LogWorld: Bringing up level for play took: 0.001127
+[2021.10.20-15.53.56:141][476]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.10.20-15.53.56:146][476]PIE: Server logged in
+[2021.10.20-15.53.56:148][476]PIE: Play in editor total start time 0.191 seconds.
+[2021.10.20-15.54.20:969][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.54.20:969][902]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.10.20-15.54.20:969][902]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.54.20:970][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.54.20:994][902]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.20-15.54.21:032][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.54.21:069][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.54.21:069][902]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-15.54.21:072][902]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-15.54.21:097][902]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2021.10.20-15.54.21:167][903]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.10.20-15.54.26:540][128]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.54.38:223][495]BlueprintLog: New page: Compile AsteroidBP
+[2021.10.20-15.54.38:337][495]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2021.10.20-15.54.39:661][531]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/AsteroidBP7A2F02B4467EB6889DEEC48DBF233FF0.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/AsteroidBP.uasset'
+[2021.10.20-15.54.39:706][531]AssetCheck: New page: Asset Save: AsteroidBP
+[2021.10.20-15.54.39:707][531]LogContentValidation: Display: Validating Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.54.40:850][570]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.54.40:871][570]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.54.40:885][570]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.54.40:886][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.54.43:782][690]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.54.49:560][885]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.54.49:597][885]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.54.49:628][885]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.54.49:628][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.54.51:042][921]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.55.20:843][836]LogSlate: Window 'My Blueprint' being destroyed
+[2021.10.20-15.55.31:665][189]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.55.31:714][189]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.55.31:715][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.55.31:807][189]LogSlate: Window 'UnrealAsteroids_CPP - Unreal Editor' being destroyed
+[2021.10.20-15.55.31:991][189]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu
+[2021.10.20-15.55.31:991][189]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.File
+[2021.10.20-15.55.31:992][189]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Window
+[2021.10.20-15.55.31:992][189]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Edit
+[2021.10.20-15.55.31:992][189]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Help
+[2021.10.20-15.55.31:992][189]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.SourceControl
+[2021.10.20-15.55.31:992][189]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.Cinematics
+[2021.10.20-15.55.31:992][189]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton
+[2021.10.20-15.55.31:992][189]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingQuality
+[2021.10.20-15.55.31:993][189]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingInfo.LightingDensity
+[2021.10.20-15.55.31:995][189]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingInfo.LightingResolution
+[2021.10.20-15.55.31:997][189]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingInfo
+[2021.10.20-15.55.31:997][189]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.EditorModes
+[2021.10.20-15.55.31:998][189]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.CompileComboButton
+[2021.10.20-15.55.31:998][189]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.LevelToolbarQuickSettings
+[2021.10.20-15.55.31:998][189]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.OpenBlueprint
+[2021.10.20-15.55.31:999][189]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar
+[2021.10.20-15.55.32:145][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.55.32:164][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.55.32:182][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.55.32:201][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.55.32:882][189]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.55.44:679][602]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.55.44:757][602]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.55.44:757][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.55.45:109][602]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.56.16:715][552]LogD3D12RHI: Creating RTPSO with 140 shaders (0 cached, 1 new) took 32.17 ms. Compile time 18.93 ms, link time 12.32 ms.
+[2021.10.20-15.56.26:783][822]BlueprintLog: New page: Compile AsteroidBP
+[2021.10.20-15.56.26:985][822]LogUObjectHash: Compacting FUObjectHashTables data took   7.93ms
+[2021.10.20-15.56.28:304][853]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/AsteroidBP48873E6A401D8E57FDF331B1BBD3F288.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/AsteroidBP.uasset'
+[2021.10.20-15.56.28:359][853]AssetCheck: New page: Asset Save: AsteroidBP
+[2021.10.20-15.56.28:359][853]LogContentValidation: Display: Validating Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.56.30:127][903]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.56.30:146][903]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.56.30:177][903]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.56.30:178][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.56.37:325][161]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.57.14:394][159]LogUObjectHash: Compacting FUObjectHashTables data took   8.01ms
+[2021.10.20-15.57.14:418][159]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel_Auto1D11AE89E44465DE60DC290ABA431E0C7.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/Autosaves/Game/MainLevel_Auto1.umap'
+[2021.10.20-15.57.14:431][159]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.101
+[2021.10.20-15.57.14:431][159]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.101
+[2021.10.20-15.57.49:657][169]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/AsteroidBPE2A3587E4E9E032EB6AF4A93C7A920EE.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/AsteroidBP.uasset'
+[2021.10.20-15.57.49:721][169]AssetCheck: New page: Asset Save: AsteroidBP
+[2021.10.20-15.57.49:721][169]LogContentValidation: Display: Validating Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.57.50:231][183]BlueprintLog: New page: Compile AsteroidBP
+[2021.10.20-15.57.50:398][183]LogUObjectHash: Compacting FUObjectHashTables data took   6.58ms
+[2021.10.20-15.57.51:251][201]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/AsteroidBP13F7B95140567FBB4BADA9862D969BDB.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/AsteroidBP.uasset'
+[2021.10.20-15.57.51:297][201]AssetCheck: New page: Asset Save: AsteroidBP
+[2021.10.20-15.57.51:297][201]LogContentValidation: Display: Validating Blueprint /Game/AsteroidBP.AsteroidBP
+[2021.10.20-15.57.53:152][262]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.57.53:176][262]LogSlate: Window 'AsteroidBP' being destroyed
+[2021.10.20-15.57.53:196][262]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.57.53:196][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.57.56:142][394]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.20-15.57.56:174][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.20-15.57.56:174][394]PIE: New page: PIE session: MainLevel (Oct 20, 2021, 7:57:56 AM)
+[2021.10.20-15.57.56:175][394]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.10.20-15.57.56:178][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003428s)
+[2021.10.20-15.57.56:180][394]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.20-15.57.56:181][394]LogPlayLevel: PIE: World Init took: (0.002723s)
+[2021.10.20-15.57.56:181][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.006482s)
+[2021.10.20-15.57.56:233][394]LogUObjectHash: Compacting FUObjectHashTables data took   6.79ms
+[2021.10.20-15.57.56:235][394]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.10.20-15.57.56:235][394]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.20-15.57.56:235][394]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.20-15.57.56:236][394]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.20-15.57.56:236][394]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.20-15.57.56:236][394]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.20-15.57.56:236][394]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.20-15.57.56:236][394]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.20-15.57.56:236][394]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.20-15.57.56:238][394]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.20-15.57.56:238][394]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.20-15.57.56:238][394]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.20-15.57.56:238][394]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.20-15.57.56:250][394]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.20-15.57.56:250][394]LogAudioMixer: Display: 1: FrontRight
+[2021.10.20-15.57.56:327][394]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.10.20-15.57.56:328][394]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.20-15.57.56:328][394]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.20-15.57.56:328][394]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.20-15.57.56:329][394]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.20-15.57.56:329][394]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.20-15.57.56:329][394]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.20-15.57.56:332][394]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.20-15.57.56:332][394]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.20-15.57.56:332][394]LogInit: FAudioDevice initialized.
+[2021.10.20-15.57.56:332][394]LogAudio: Display: Audio Device (ID: 10) registered with world 'MainLevel'.
+[2021.10.20-15.57.56:351][394]LogLoad: Game class is 'GameModeBase'
+[2021.10.20-15.57.56:354][394]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.10.20-11.57.56
+[2021.10.20-15.57.56:354][394]LogWorld: Bringing up level for play took: 0.001728
+[2021.10.20-15.57.56:354][394]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.10.20-15.57.56:360][394]PIE: Server logged in
+[2021.10.20-15.57.56:362][394]PIE: Play in editor total start time 0.201 seconds.
+[2021.10.20-15.58.07:778][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.58.07:778][ 71]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.10.20-15.58.07:779][ 71]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-15.58.07:779][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.58.07:800][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.20-15.58.07:833][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-15.58.07:869][ 71]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.20-15.58.07:869][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-15.58.07:872][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-15.58.07:882][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-15.58.07:890][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2021.10.20-15.58.07:956][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.10.20-15.58.09:384][135]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2021.10.20-15.58.09:401][135]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel311D219D49B9762E3CCCF39656EC6A2D.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel.umap'
+[2021.10.20-15.58.09:437][135]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel_BuiltDataE218419B4ED107632A766BBDD548E876.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel_BuiltData.uasset'
+[2021.10.20-15.58.09:466][135]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.20-15.58.09:466][135]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2021.10.20-15.58.09:466][135]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
