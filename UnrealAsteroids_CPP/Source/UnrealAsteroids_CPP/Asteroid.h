@@ -12,6 +12,9 @@
 #include "Asteroid.generated.h"
 
 
+DECLARE_DYNAMIC_DELEGATE(FDelegate);
+
+
 UCLASS()
 class UNREALASTEROIDS_CPP_API AAsteroid : public AActor
 {
@@ -35,7 +38,11 @@ public:
 	TSubclassOf<class AActor> Explosion;
 	USoundCue* explosionSoundCue;
 
+	UPROPERTY(EditAnywhere)
+	FDelegate HitDelegate;
+
 	UFUNCTION()
-	void onHit(AActor* SelfActor, class AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit);
+	void onHit(AActor* SelfActor, class AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit);
+
 
 };

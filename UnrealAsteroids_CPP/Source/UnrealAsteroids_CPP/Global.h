@@ -30,4 +30,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Global") int32 Score;
 	FTimerHandle timerHandle;
 
+	UFUNCTION()
+	void incrementScore();
+
 };

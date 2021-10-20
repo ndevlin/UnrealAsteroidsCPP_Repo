@@ -53,6 +53,14 @@ void AGlobal::SpawnAsteroids()
 			FVector spawn = worldLoc + worldDir * (worldLoc.Z / 2);
 			spawn.Z = 0;
 			AAsteroid* roid = World->SpawnActor<AAsteroid>(AsteroidClass, FVector(spawn.X, spawn.Y, 0.0f), FRotator(0.f));
+
+			roid->HitDelegate.BindDynamic(this, &AGlobal::incrementScore);
 		}
 	}
 }
+
+
+void AGlobal::incrementScore()
+{
+	Score += 10;
+}

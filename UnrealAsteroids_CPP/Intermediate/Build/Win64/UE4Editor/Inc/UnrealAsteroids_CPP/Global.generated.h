@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define UNREALASTEROIDS_CPP_Global_generated_h
 
 #define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Global_h_14_SPARSE_DATA
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Global_h_14_RPC_WRAPPERS
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Global_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Global_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execincrementScore);
+
+
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Global_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execincrementScore);
+
+
 #define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Global_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGlobal(); \

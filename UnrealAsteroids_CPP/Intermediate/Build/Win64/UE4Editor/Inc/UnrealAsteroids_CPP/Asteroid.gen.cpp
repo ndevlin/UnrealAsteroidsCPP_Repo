@@ -13,14 +13,37 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeAsteroid() {}
 // Cross Module References
+	UNREALASTEROIDS_CPP_API UFunction* Z_Construct_UDelegateFunction_UnrealAsteroids_CPP_Delegate__DelegateSignature();
+	UPackage* Z_Construct_UPackage__Script_UnrealAsteroids_CPP();
 	UNREALASTEROIDS_CPP_API UClass* Z_Construct_UClass_AAsteroid_NoRegister();
 	UNREALASTEROIDS_CPP_API UClass* Z_Construct_UClass_AAsteroid();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
-	UPackage* Z_Construct_UPackage__Script_UnrealAsteroids_CPP();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_UnrealAsteroids_CPP_Delegate__DelegateSignature_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_UnrealAsteroids_CPP_Delegate__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Asteroid.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_UnrealAsteroids_CPP_Delegate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_UnrealAsteroids_CPP, nullptr, "Delegate__DelegateSignature", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00120000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_UnrealAsteroids_CPP_Delegate__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_UnrealAsteroids_CPP_Delegate__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_UnrealAsteroids_CPP_Delegate__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_UnrealAsteroids_CPP_Delegate__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	DEFINE_FUNCTION(AAsteroid::execonHit)
 	{
 		P_GET_OBJECT(AActor,Z_Param_SelfActor);
@@ -103,6 +126,11 @@ void EmptyLinkFunctionForGeneratedCodeAsteroid() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitDelegate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FDelegatePropertyParams NewProp_HitDelegate;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -119,6 +147,16 @@ void EmptyLinkFunctionForGeneratedCodeAsteroid() {}
 		{ "ModuleRelativePath", "Asteroid.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAsteroid_Statics::NewProp_HitDelegate_MetaData[] = {
+		{ "Category", "Asteroid" },
+		{ "ModuleRelativePath", "Asteroid.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FDelegatePropertyParams Z_Construct_UClass_AAsteroid_Statics::NewProp_HitDelegate = { "HitDelegate", nullptr, (EPropertyFlags)0x0010000000080001, UE4CodeGen_Private::EPropertyGenFlags::Delegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAsteroid, HitDelegate), Z_Construct_UDelegateFunction_UnrealAsteroids_CPP_Delegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_AAsteroid_Statics::NewProp_HitDelegate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAsteroid_Statics::NewProp_HitDelegate_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAsteroid_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAsteroid_Statics::NewProp_HitDelegate,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAsteroid_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAsteroid>::IsAbstract,
 	};
@@ -128,11 +166,11 @@ void EmptyLinkFunctionForGeneratedCodeAsteroid() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_AAsteroid_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AAsteroid_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AAsteroid_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AAsteroid_Statics::Class_MetaDataParams))
@@ -146,7 +184,7 @@ void EmptyLinkFunctionForGeneratedCodeAsteroid() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAsteroid, 1472184931);
+	IMPLEMENT_CLASS(AAsteroid, 3219139997);
 	template<> UNREALASTEROIDS_CPP_API UClass* StaticClass<AAsteroid>()
 	{
 		return AAsteroid::StaticClass();

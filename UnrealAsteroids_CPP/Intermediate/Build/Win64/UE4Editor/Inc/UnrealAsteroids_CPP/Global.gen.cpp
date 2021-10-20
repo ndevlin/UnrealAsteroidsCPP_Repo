@@ -18,8 +18,42 @@ void EmptyLinkFunctionForGeneratedCodeGlobal() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_UnrealAsteroids_CPP();
 // End Cross Module References
+	DEFINE_FUNCTION(AGlobal::execincrementScore)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->incrementScore();
+		P_NATIVE_END;
+	}
 	void AGlobal::StaticRegisterNativesAGlobal()
 	{
+		UClass* Class = AGlobal::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "incrementScore", &AGlobal::execincrementScore },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AGlobal_incrementScore_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGlobal_incrementScore_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Global.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGlobal_incrementScore_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGlobal, nullptr, "incrementScore", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGlobal_incrementScore_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AGlobal_incrementScore_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGlobal_incrementScore()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGlobal_incrementScore_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AGlobal_NoRegister()
 	{
@@ -28,6 +62,7 @@ void EmptyLinkFunctionForGeneratedCodeGlobal() {}
 	struct Z_Construct_UClass_AGlobal_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -42,6 +77,9 @@ void EmptyLinkFunctionForGeneratedCodeGlobal() {}
 	UObject* (*const Z_Construct_UClass_AGlobal_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_UnrealAsteroids_CPP,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AGlobal_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AGlobal_incrementScore, "incrementScore" }, // 202380864
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGlobal_Statics::Class_MetaDataParams[] = {
@@ -67,11 +105,11 @@ void EmptyLinkFunctionForGeneratedCodeGlobal() {}
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AGlobal_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AGlobal_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -86,7 +124,7 @@ void EmptyLinkFunctionForGeneratedCodeGlobal() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGlobal, 553918665);
+	IMPLEMENT_CLASS(AGlobal, 914476472);
 	template<> UNREALASTEROIDS_CPP_API UClass* StaticClass<AGlobal>()
 	{
 		return AGlobal::StaticClass();

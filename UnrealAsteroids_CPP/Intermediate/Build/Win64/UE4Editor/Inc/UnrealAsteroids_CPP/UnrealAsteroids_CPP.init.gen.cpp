@@ -11,18 +11,22 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeUnrealAsteroids_CPP_init() {}
+	UNREALASTEROIDS_CPP_API UFunction* Z_Construct_UDelegateFunction_UnrealAsteroids_CPP_Delegate__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_UnrealAsteroids_CPP()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_UnrealAsteroids_CPP_Delegate__DelegateSignature,
+			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/UnrealAsteroids_CPP",
-				nullptr,
-				0,
+				SingletonFuncArray,
+				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x8836A8C3,
-				0x913BB652,
+				0xCC82CD38,
+				0x7E5D4566,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

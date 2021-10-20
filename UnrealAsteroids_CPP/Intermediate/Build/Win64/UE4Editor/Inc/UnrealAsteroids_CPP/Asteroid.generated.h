@@ -16,18 +16,25 @@ struct FHitResult;
 #endif
 #define UNREALASTEROIDS_CPP_Asteroid_generated_h
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_SPARSE_DATA
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_RPC_WRAPPERS \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_15_DELEGATE \
+static inline void FDelegate_DelegateWrapper(const FScriptDelegate& Delegate) \
+{ \
+	Delegate.ProcessDelegate<UObject>(NULL); \
+}
+
+
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_SPARSE_DATA
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execonHit);
 
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execonHit);
 
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_INCLASS_NO_PURE_DECLS \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAsteroid(); \
 	friend struct Z_Construct_UClass_AAsteroid_Statics; \
@@ -36,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(AAsteroid)
 
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_INCLASS \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_INCLASS \
 private: \
 	static void StaticRegisterNativesAAsteroid(); \
 	friend struct Z_Construct_UClass_AAsteroid_Statics; \
@@ -45,7 +52,7 @@ public: \
 	DECLARE_SERIALIZER(AAsteroid)
 
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_STANDARD_CONSTRUCTORS \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAsteroid(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAsteroid) \
@@ -58,7 +65,7 @@ private: \
 public:
 
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_ENHANCED_CONSTRUCTORS \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAsteroid(AAsteroid&&); \
@@ -69,28 +76,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAsteroid)
 
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_PRIVATE_PROPERTY_OFFSET
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_15_PROLOG
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_GENERATED_BODY_LEGACY \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_PRIVATE_PROPERTY_OFFSET
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_PROLOG
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_PRIVATE_PROPERTY_OFFSET \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_SPARSE_DATA \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_RPC_WRAPPERS \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_INCLASS \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_STANDARD_CONSTRUCTORS \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_PRIVATE_PROPERTY_OFFSET \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_SPARSE_DATA \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_RPC_WRAPPERS \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_INCLASS \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_GENERATED_BODY \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_PRIVATE_PROPERTY_OFFSET \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_SPARSE_DATA \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_INCLASS_NO_PURE_DECLS \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_18_ENHANCED_CONSTRUCTORS \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_PRIVATE_PROPERTY_OFFSET \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_SPARSE_DATA \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_INCLASS_NO_PURE_DECLS \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Asteroid_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
