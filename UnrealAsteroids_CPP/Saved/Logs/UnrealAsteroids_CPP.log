@@ -1303,3 +1303,245 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.20-03.30.21:391][752]AssetCheck: New page: Asset Save: multiple assets
 [2021.10.20-03.30.21:392][752]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
 [2021.10.20-03.30.21:392][752]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2021.10.20-03.31.22:027][543]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2021.10.20-03.31.22:046][543]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.10.20-03.31.37:247][543]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.10.20-03.31.37:259][543]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.10.20-03.31.37:284][543]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.10.20-03.31.41:295][769]LogContentBrowser: Attempting asset rename: NewBlueprint -> ShipBP
+[2021.10.20-03.31.41:301][769]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.10.20-03.31.43:377][883]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ShipBP.ShipBP
+[2021.10.20-03.31.43:920][883]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 126 classes and 0 folders.
+[2021.10.20-03.31.45:488][884]LogRenderer: Reallocating scene render targets to support 1288x692 Format 10 NumSamples 1 (Frame:1).
+[2021.10.20-03.31.45:843][888]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2021.10.20-03.31.45:889][888]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2021.10.20-03.31.45:891][888]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2021.10.20-03.31.45:934][888]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2021.10.20-03.31.45:938][888]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2021.10.20-03.31.45:980][888]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2021.10.20-03.32.00:590][468]LogSlate: Took 0.000668 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.10.20-03.33.42:623][690]BlueprintLog: New page: Compile ShipBP
+[2021.10.20-03.33.42:761][690]LogUObjectHash: Compacting FUObjectHashTables data took  10.94ms
+[2021.10.20-03.33.42:834][690]LogSlate: Took 0.000526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.10.20-03.33.43:528][703]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/ShipBP0BC7C5D34DCA79A8F8F27A9B95F1762F.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/ShipBP.uasset'
+[2021.10.20-03.33.43:588][703]AssetCheck: New page: Asset Save: ShipBP
+[2021.10.20-03.33.43:588][703]LogContentValidation: Display: Validating Blueprint /Game/ShipBP.ShipBP
+[2021.10.20-03.33.59:821][238]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/ShipBPA3AACDDA45AEC601CCA894AA692E9D24.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/ShipBP.uasset'
+[2021.10.20-03.33.59:876][238]AssetCheck: New page: Asset Save: ShipBP
+[2021.10.20-03.33.59:876][238]LogContentValidation: Display: Validating Blueprint /Game/ShipBP.ShipBP
+[2021.10.20-03.34.00:831][272]LogSlate: Window 'ShipBP' being destroyed
+[2021.10.20-03.34.00:875][272]LogSlate: Window 'ShipBP' being destroyed
+[2021.10.20-03.34.00:901][272]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-03.34.00:901][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-03.34.05:591][436]LogD3D12RHI: Creating RTPSO with 136 shaders (0 cached, 1 new) took 22.78 ms. Compile time 13.53 ms, link time 8.63 ms.
+[2021.10.20-03.34.21:132][325]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2021.10.20-03.34.21:148][325]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevelF736AFF647E08CEBCCD516BEACA32B9B.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel.umap'
+[2021.10.20-03.34.21:189][325]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel_BuiltData17560B474F7CD014ED6969B49080AABC.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel_BuiltData.uasset'
+[2021.10.20-03.34.21:237][325]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.20-03.34.21:238][325]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.10.20-03.34.21:238][325]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2021.10.20-03.34.24:797][502]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.20-03.34.24:830][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.20-03.34.24:831][502]PIE: New page: PIE session: MainLevel (Oct 19, 2021, 7:34:24 PM)
+[2021.10.20-03.34.24:831][502]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.10.20-03.34.24:833][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002274s)
+[2021.10.20-03.34.24:836][502]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.20-03.34.24:837][502]LogPlayLevel: PIE: World Init took: (0.003672s)
+[2021.10.20-03.34.24:837][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.006312s)
+[2021.10.20-03.34.24:897][502]LogUObjectHash: Compacting FUObjectHashTables data took   6.37ms
+[2021.10.20-03.34.24:899][502]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.10.20-03.34.24:899][502]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.20-03.34.24:899][502]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.20-03.34.24:899][502]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.20-03.34.24:899][502]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.20-03.34.24:899][502]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.20-03.34.24:899][502]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.20-03.34.24:899][502]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.20-03.34.24:899][502]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.20-03.34.24:900][502]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.20-03.34.24:900][502]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.20-03.34.24:900][502]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.20-03.34.24:900][502]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.20-03.34.24:914][502]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.20-03.34.24:914][502]LogAudioMixer: Display: 1: FrontRight
+[2021.10.20-03.34.25:004][502]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.10.20-03.34.25:005][502]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.20-03.34.25:005][502]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.20-03.34.25:005][502]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.20-03.34.25:006][502]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.20-03.34.25:006][502]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.20-03.34.25:006][502]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.20-03.34.25:009][502]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.20-03.34.25:009][502]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.20-03.34.25:009][502]LogInit: FAudioDevice initialized.
+[2021.10.20-03.34.25:009][502]LogAudio: Display: Audio Device (ID: 4) registered with world 'MainLevel'.
+[2021.10.20-03.34.25:032][502]LogLoad: Game class is 'GameModeBase'
+[2021.10.20-03.34.25:035][502]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.10.19-23.34.25
+[2021.10.20-03.34.25:035][502]LogWorld: Bringing up level for play took: 0.002303
+[2021.10.20-03.34.25:036][502]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.10.20-03.34.25:041][502]PIE: Server logged in
+[2021.10.20-03.34.25:043][502]PIE: Play in editor total start time 0.228 seconds.
+[2021.10.20-03.34.26:657][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-03.34.26:657][590]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.10.20-03.34.26:658][590]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-03.34.26:658][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-03.34.26:676][590]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.20-03.34.26:717][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-03.34.26:766][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-03.34.26:767][590]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-03.34.26:770][590]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-03.34.26:791][590]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2021.10.20-03.34.26:848][591]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.10.20-03.34.44:050][553]LogD3D12RHI: Creating RTPSO with 137 shaders (0 cached, 1 new) took 21.17 ms. Compile time 12.35 ms, link time 8.27 ms.
+[2021.10.20-03.35.12:516][730]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2021.10.20-03.35.12:530][730]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel3428081946BEDE82F483D8A3E0589559.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel.umap'
+[2021.10.20-03.35.12:566][730]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel_BuiltData8906EBD944A73EA3BC2269B3F2DD6F10.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel_BuiltData.uasset'
+[2021.10.20-03.35.12:608][730]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.20-03.35.12:609][730]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.10.20-03.35.12:609][730]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2021.10.20-03.35.37:634][964]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.20-03.35.37:661][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.20-03.35.37:661][964]PIE: New page: PIE session: MainLevel (Oct 19, 2021, 7:35:37 PM)
+[2021.10.20-03.35.37:662][964]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.10.20-03.35.37:664][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001916s)
+[2021.10.20-03.35.37:665][964]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.20-03.35.37:665][964]LogPlayLevel: PIE: World Init took: (0.001814s)
+[2021.10.20-03.35.37:666][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.003949s)
+[2021.10.20-03.35.37:716][964]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2021.10.20-03.35.37:719][964]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.10.20-03.35.37:720][964]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.20-03.35.37:720][964]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.20-03.35.37:720][964]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.20-03.35.37:720][964]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.20-03.35.37:720][964]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.20-03.35.37:720][964]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.20-03.35.37:720][964]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.20-03.35.37:720][964]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.20-03.35.37:720][964]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.20-03.35.37:720][964]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.20-03.35.37:721][964]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.20-03.35.37:721][964]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.20-03.35.37:729][964]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.20-03.35.37:729][964]LogAudioMixer: Display: 1: FrontRight
+[2021.10.20-03.35.37:785][964]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.10.20-03.35.37:785][964]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.20-03.35.37:785][964]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.20-03.35.37:786][964]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.20-03.35.37:786][964]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.20-03.35.37:786][964]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.20-03.35.37:786][964]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.20-03.35.37:791][964]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.20-03.35.37:791][964]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.20-03.35.37:791][964]LogInit: FAudioDevice initialized.
+[2021.10.20-03.35.37:791][964]LogAudio: Display: Audio Device (ID: 5) registered with world 'MainLevel'.
+[2021.10.20-03.35.37:801][964]LogLoad: Game class is 'GameModeBase'
+[2021.10.20-03.35.37:803][964]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.10.19-23.35.37
+[2021.10.20-03.35.37:803][964]LogWorld: Bringing up level for play took: 0.000684
+[2021.10.20-03.35.37:803][964]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.10.20-03.35.37:806][964]PIE: Server logged in
+[2021.10.20-03.35.37:807][964]PIE: Play in editor total start time 0.157 seconds.
+[2021.10.20-03.35.48:385][590]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2021.10.20-03.35.48:397][590]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel95AA625F43E2A8B66A3160AF4BBBF3C0.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel.umap'
+[2021.10.20-03.35.48:432][590]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel_BuiltData58E2BC6246E54056B8F0F3B63AE312D1.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel_BuiltData.uasset'
+[2021.10.20-03.35.48:443][590]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.20-03.35.48:444][590]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.10.20-03.35.48:444][590]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2021.10.20-03.35.49:465][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-03.35.49:465][642]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.10.20-03.35.49:465][642]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-03.35.49:465][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-03.35.49:480][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.20-03.35.49:503][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-03.35.49:542][642]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.20-03.35.49:542][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-03.35.49:545][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-03.35.49:558][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-03.35.49:564][642]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2021.10.20-03.35.49:635][643]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.10.20-03.36.03:288][ 97]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.10.20-03.38.08:310][356]LogSlate: Window 'Project Settings' being destroyed
+[2021.10.20-03.38.08:326][356]LogSlate: Window 'Project Settings' being destroyed
+[2021.10.20-03.38.12:848][575]LogUObjectHash: Compacting FUObjectHashTables data took   9.44ms
+[2021.10.20-03.38.12:869][575]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel55717E9345403B50361748BF6679B9D7.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel.umap'
+[2021.10.20-03.38.12:914][575]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel_BuiltData641C7A84446434200AF662A034482A65.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel_BuiltData.uasset'
+[2021.10.20-03.38.12:950][575]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.20-03.38.12:950][575]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.10.20-03.38.12:950][575]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2021.10.20-03.41.03:765][158]LogHotReload: New module detected: UE4Editor-UnrealAsteroids_CPP-0006.dll
+[2021.10.20-03.41.06:211][166]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.20-03.41.06:631][166]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UnrealAsteroids_CPP' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2021.10.20-03.41.06:636][166]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.10.20-03.41.06:947][166]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0134 seconds. Added 3824 classes and 930 folders.
+[2021.10.20-03.41.06:967][166]Display: HotReload took  0.8s.
+[2021.10.20-03.41.09:068][176]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2021.10.20-03.41.09:124][176]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2021.10.20-03.41.09:125][176]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2021.10.20-03.41.09:167][176]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2021.10.20-03.41.09:167][176]LogD3D12RHI: Creating RT View Heap with 250000 entries
+[2021.10.20-03.41.09:209][176]LogD3D12RHI: Creating RT Sampler Heap with 2048 entries
+[2021.10.20-03.41.09:969][208]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.20-03.41.09:994][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.20-03.41.09:994][208]PIE: New page: PIE session: MainLevel (Oct 19, 2021, 7:41:09 PM)
+[2021.10.20-03.41.09:994][208]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2021.10.20-03.41.09:997][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002056s)
+[2021.10.20-03.41.10:003][208]LogAIModule: Creating AISystem for world MainLevel
+[2021.10.20-03.41.10:003][208]LogPlayLevel: PIE: World Init took: (0.006377s)
+[2021.10.20-03.41.10:003][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.008654s)
+[2021.10.20-03.41.10:211][208]LogUObjectHash: Compacting FUObjectHashTables data took  11.04ms
+[2021.10.20-03.41.10:213][208]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.10.20-03.41.10:213][208]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.20-03.41.10:213][208]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.20-03.41.10:213][208]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.20-03.41.10:213][208]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.20-03.41.10:213][208]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.20-03.41.10:213][208]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.20-03.41.10:213][208]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.20-03.41.10:213][208]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.20-03.41.10:214][208]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.20-03.41.10:214][208]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.20-03.41.10:214][208]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.20-03.41.10:214][208]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.20-03.41.10:224][208]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.20-03.41.10:224][208]LogAudioMixer: Display: 1: FrontRight
+[2021.10.20-03.41.10:283][208]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.10.20-03.41.10:283][208]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.20-03.41.10:283][208]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.20-03.41.10:284][208]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.20-03.41.10:284][208]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.20-03.41.10:284][208]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.20-03.41.10:285][208]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.20-03.41.10:287][208]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.20-03.41.10:287][208]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.20-03.41.10:287][208]LogInit: FAudioDevice initialized.
+[2021.10.20-03.41.10:287][208]LogAudio: Display: Audio Device (ID: 6) registered with world 'MainLevel'.
+[2021.10.20-03.41.10:303][208]LogLoad: Game class is 'GameModeBase'
+[2021.10.20-03.41.10:305][208]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.10.19-23.41.10
+[2021.10.20-03.41.10:305][208]LogWorld: Bringing up level for play took: 0.001127
+[2021.10.20-03.41.10:305][208]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.10.20-03.41.10:310][208]PIE: Server logged in
+[2021.10.20-03.41.10:311][208]PIE: Play in editor total start time 0.325 seconds.
+[2021.10.20-03.41.47:864][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-03.41.47:864][422]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2021.10.20-03.41.47:864][422]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.10.20-03.41.47:864][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-03.41.47:879][422]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.20-03.41.47:898][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.20-03.41.47:933][422]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.20-03.41.47:934][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-03.41.47:935][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.20-03.41.47:958][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.20-03.41.47:985][422]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2021.10.20-03.41.48:031][423]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.10.20-03.41.50:256][532]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.10.20-03.41.50:267][532]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel404F95104D08AA06E3C1289FC7411C62.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel.umap'
+[2021.10.20-03.41.50:294][532]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel_BuiltDataF6BE0B964A2F10294E61068B8EC709AD.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel_BuiltData.uasset'
+[2021.10.20-03.41.50:318][532]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.20-03.41.50:318][532]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.10.20-03.41.50:318][532]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2021.10.20-03.42.08:685][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2021.10.20-03.42.08:705][575]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel93467B3249BB920C5936249B2844AC87.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel.umap'
+[2021.10.20-03.42.08:751][575]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Saved/MainLevel_BuiltData7DA3555A4A793233173A94A5C1BB97B2.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/UnrealAsteroids/UnrealAsteroidsProject/UnrealAsteroidsCPP_Repo/UnrealAsteroids_CPP/Content/MainLevel_BuiltData.uasset'
+[2021.10.20-03.42.08:781][575]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.20-03.42.08:782][575]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.10.20-03.42.08:782][575]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2021.10.20-03.42.11:202][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
