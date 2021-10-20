@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include "Engine/World.h"
+#include "UObject/ConstructorHelpers.h"
 #include "Ship.h"
 #include "Components/InputComponent.h"
 
@@ -24,8 +25,13 @@ AShip::AShip()
 	ShipSphereComponent->SetEnableGravity(false);
 	ShipSphereComponent->SetLinearDamping(0.3);
 	ShipSphereComponent->SetAngularDamping(1);
-	ShipSphereComponent->SetConstraintMode(EDOFMode::XYPlane);
+	ShipSphereComponent->SetConstraintMode(EDOFMode::XYPlane);
 
+	static ConstructorHelpers::FObjectFinder<UBlueprint> Bullet(TEXT("Blueprint'/Game/BulletBP.BulletBP'"));
+	if (Bullet.Object)
+	{
+		ProjectileClass = (UClass*)Bullet.Object->GeneratedClass;
+	}
 }
 
 // Called when the game starts or when spawned
@@ -50,6 +56,7 @@ void AShip::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	InputComponent->BindAxis("MoveForward", this, &AShip::Move_Forward);
 	InputComponent->BindAxis("Turn", this, &AShip::Move_Turn);
 
+	InputComponent->BindAction("Shoot", EInputEvent::IE_Pressed, this, &AShip::Shoot);
 }
 
 
@@ -66,5 +73,19 @@ void AShip::Move_Turn(float AxisValue)
 	FRotator NewRotation = GetActorRotation();
 	NewRotation.Yaw += AxisValue * 2;
 	SetActorRotation(NewRotation);
+}
+
+
+void AShip::Shoot()
+{
+	UWorld* const World = GetWorld();
+	if (World) 
+	{
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.Owner = this;
+		SpawnParams.Instigator = GetInstigator();
+		World->SpawnActor<ABullet>(ProjectileClass, GetActorLocation() +
+			GetActorForwardVector() * 15, GetActorRotation(), SpawnParams);
+	}
 }
 

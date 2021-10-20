@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
+#include "Bullet.h"
 #include "Components/SphereComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
@@ -31,5 +32,9 @@ public:
 	//Input functions
 	void Move_Forward(float AxisValue);
 	void Move_Turn(float AxisValue);
+	void Shoot();
+	// Projectile class to spawn
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+	TSubclassOf<class ABullet> ProjectileClass;
 
 };

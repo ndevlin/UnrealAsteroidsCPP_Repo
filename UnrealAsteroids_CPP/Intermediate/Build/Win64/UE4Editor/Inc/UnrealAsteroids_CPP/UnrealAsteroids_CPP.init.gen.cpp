@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeUnrealAsteroids_CPP_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xBCA5E908,
-				0x6223C1D3,
+				0x3ABC8D1A,
+				0x9921C337,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

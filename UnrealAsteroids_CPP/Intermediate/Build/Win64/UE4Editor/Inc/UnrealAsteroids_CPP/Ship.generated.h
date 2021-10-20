@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UNREALASTEROIDS_CPP_Ship_generated_h
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_SPARSE_DATA
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_RPC_WRAPPERS
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_INCLASS_NO_PURE_DECLS \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_SPARSE_DATA
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_RPC_WRAPPERS
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAShip(); \
 	friend struct Z_Construct_UClass_AShip_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AShip)
 
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_INCLASS \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAShip(); \
 	friend struct Z_Construct_UClass_AShip_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AShip)
 
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_STANDARD_CONSTRUCTORS \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AShip(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AShip) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_ENHANCED_CONSTRUCTORS \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AShip(AShip&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AShip)
 
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_PRIVATE_PROPERTY_OFFSET
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_9_PROLOG
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_GENERATED_BODY_LEGACY \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_PRIVATE_PROPERTY_OFFSET
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_10_PROLOG
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_PRIVATE_PROPERTY_OFFSET \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_SPARSE_DATA \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_RPC_WRAPPERS \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_INCLASS \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_STANDARD_CONSTRUCTORS \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_PRIVATE_PROPERTY_OFFSET \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_SPARSE_DATA \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_RPC_WRAPPERS \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_INCLASS \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_GENERATED_BODY \
+#define UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_PRIVATE_PROPERTY_OFFSET \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_SPARSE_DATA \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_INCLASS_NO_PURE_DECLS \
-	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_12_ENHANCED_CONSTRUCTORS \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_PRIVATE_PROPERTY_OFFSET \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_SPARSE_DATA \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_INCLASS_NO_PURE_DECLS \
+	UnrealAsteroids_CPP_Source_UnrealAsteroids_CPP_Ship_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

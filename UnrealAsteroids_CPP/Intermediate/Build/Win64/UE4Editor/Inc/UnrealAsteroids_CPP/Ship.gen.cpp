@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeShip() {}
 	UNREALASTEROIDS_CPP_API UClass* Z_Construct_UClass_AShip();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_UnrealAsteroids_CPP();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	UNREALASTEROIDS_CPP_API UClass* Z_Construct_UClass_ABullet_NoRegister();
 // End Cross Module References
 	void AShip::StaticRegisterNativesAShip()
 	{
@@ -31,6 +33,11 @@ void EmptyLinkFunctionForGeneratedCodeShip() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +52,18 @@ void EmptyLinkFunctionForGeneratedCodeShip() {}
 		{ "ModuleRelativePath", "Ship.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShip_Statics::NewProp_ProjectileClass_MetaData[] = {
+		{ "Category", "Projectile" },
+		{ "Comment", "// Projectile class to spawn\n" },
+		{ "ModuleRelativePath", "Ship.h" },
+		{ "ToolTip", "Projectile class to spawn" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AShip_Statics::NewProp_ProjectileClass = { "ProjectileClass", nullptr, (EPropertyFlags)0x0014000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShip, ProjectileClass), Z_Construct_UClass_ABullet_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AShip_Statics::NewProp_ProjectileClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShip_Statics::NewProp_ProjectileClass_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AShip_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShip_Statics::NewProp_ProjectileClass,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AShip_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AShip>::IsAbstract,
 	};
@@ -54,11 +73,11 @@ void EmptyLinkFunctionForGeneratedCodeShip() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AShip_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AShip_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AShip_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AShip_Statics::Class_MetaDataParams))
@@ -72,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeShip() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AShip, 1932525541);
+	IMPLEMENT_CLASS(AShip, 3146733668);
 	template<> UNREALASTEROIDS_CPP_API UClass* StaticClass<AShip>()
 	{
 		return AShip::StaticClass();
