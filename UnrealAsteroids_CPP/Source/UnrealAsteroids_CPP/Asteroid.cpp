@@ -2,6 +2,7 @@
 
 
 #include "Asteroid.h"
+#include "UObject/ConstructorHelpers.h"
 
 // Sets default values
 AAsteroid::AAsteroid()
@@ -17,6 +18,19 @@ AAsteroid::AAsteroid()
 	AsteroidBoxComponent->SetSimulatePhysics(true);
 	AsteroidBoxComponent->SetEnableGravity(false);
 	AsteroidBoxComponent->SetNotifyRigidBodyCollision(true);
+
+
+	static ConstructorHelpers::FObjectFinder<UBlueprint>
+		FindExplosion(TEXT("Blueprint'/Game/ExplosionBP.ExplosionBP'"));
+	if (FindExplosion.Object) {
+		Explosion = (UClass*)FindExplosion.Object->GeneratedClass;
+	}
+	static ConstructorHelpers::FObjectFinder<USoundCue>
+		explosionSound(TEXT("SoundCue'/Game/ExplosionSound.ExplosionSound'"));
+	if (explosionSound.Object != NULL)
+	{
+		explosionSoundCue = (USoundCue*)explosionSound.Object;
+	}
 }
 
 // Called when the game starts or when spawned
@@ -39,5 +53,15 @@ void AAsteroid::onHit(AActor* SelfActor, class AActor* OtherActor, FVector Norma
 	{
 		Destroy();
 		OtherActor->Destroy();
+
+		UWorld* const World = GetWorld();
+		if (World) {
+			FActorSpawnParameters SpawnParams;
+			SpawnParams.Owner = this;
+			SpawnParams.Instigator = GetInstigator();
+			World->SpawnActor<AActor>(Explosion, GetActorLocation(),
+				GetActorRotation(), SpawnParams);
+			//UGameplayStatics::PlaySoundAtLocation(World, explosionSoundCue, GetActorLocation());
+		}
 	}}
 

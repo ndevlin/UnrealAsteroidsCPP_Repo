@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "Components/BoxComponent.h"
 #include "Materials/Material.h"
+#include "SoundDefinitions.h"
+#include "Sound/SoundCue.h"
 #include "CoreMinimal.h"
 #include "Asteroid.generated.h"
 
@@ -29,6 +31,9 @@ public:
 
 	UBoxComponent* AsteroidBoxComponent;
 	UMaterial* AsteroidMaterial;
+	
+	TSubclassOf<class AActor> Explosion;
+	USoundCue* explosionSoundCue;
 
 	UFUNCTION()
 	void onHit(AActor* SelfActor, class AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit);
