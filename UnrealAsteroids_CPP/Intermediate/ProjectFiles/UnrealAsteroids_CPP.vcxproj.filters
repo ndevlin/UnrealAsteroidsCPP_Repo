@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UnrealAsteroids_CPP.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{45801DC7-06F8-45B5-ABC1-A52CBA9E5D96}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealAsteroids_CPP.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UnrealAsteroids_CPPEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D203A0E7-43AC-4F3A-B9ED-6E3069B34709}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UnrealAsteroids_CPP">
+      <UniqueIdentifier>{715E4780-403C-4155-AE50-E0461BBB1896}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealAsteroids_CPP\UnrealAsteroids_CPP.Build.cs">
+      <Filter>Source\UnrealAsteroids_CPP</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnrealAsteroids_CPP\UnrealAsteroids_CPP.cpp">
+      <Filter>Source\UnrealAsteroids_CPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealAsteroids_CPP\UnrealAsteroids_CPP.h">
+      <Filter>Source\UnrealAsteroids_CPP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealAsteroids_CPP\UnrealAsteroids_CPPGameModeBase.cpp">
+      <Filter>Source\UnrealAsteroids_CPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealAsteroids_CPP\UnrealAsteroids_CPPGameModeBase.h">
+      <Filter>Source\UnrealAsteroids_CPP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

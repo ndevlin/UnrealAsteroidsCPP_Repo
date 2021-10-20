@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealAsteroids_CPP",
+			"Path": "C:\\Users\\nd_mo\\Desktop\\PennHwork\\568 Game Design\\UnrealAsteroids\\UnrealAsteroidsProject\\UnrealAsteroidsCPP_Repo\\UnrealAsteroids_CPP\\Source\\UnrealAsteroids_CPP.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealAsteroids_CPPEditor",
+			"Path": "C:\\Users\\nd_mo\\Desktop\\PennHwork\\568 Game Design\\UnrealAsteroids\\UnrealAsteroidsProject\\UnrealAsteroidsCPP_Repo\\UnrealAsteroids_CPP\\Source\\UnrealAsteroids_CPPEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
