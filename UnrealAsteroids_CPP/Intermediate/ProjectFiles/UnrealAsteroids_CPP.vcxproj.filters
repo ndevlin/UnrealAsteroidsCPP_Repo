@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealAsteroids_CPP.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{45801DC7-06F8-45B5-ABC1-A52CBA9E5D96}</UniqueIdentifier>
+      <UniqueIdentifier>{48BDABAF-E197-4231-9613-DFE40AA6B91F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealAsteroids_CPP.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D203A0E7-43AC-4F3A-B9ED-6E3069B34709}</UniqueIdentifier>
+      <UniqueIdentifier>{029A9DE0-A9A8-45A0-B03E-B5F5E3806F5B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealAsteroids_CPP">
-      <UniqueIdentifier>{715E4780-403C-4155-AE50-E0461BBB1896}</UniqueIdentifier>
+      <UniqueIdentifier>{A3A70E9B-CC55-4670-A6A1-1F4B48A6491D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UnrealAsteroids_CPP\Ship.cpp">
+      <Filter>Source\UnrealAsteroids_CPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealAsteroids_CPP\Ship.h">
+      <Filter>Source\UnrealAsteroids_CPP</Filter>
+    </ClInclude>
     <None Include="..\..\Source\UnrealAsteroids_CPP\UnrealAsteroids_CPP.Build.cs">
       <Filter>Source\UnrealAsteroids_CPP</Filter>
     </None>
